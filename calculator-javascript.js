@@ -1,8 +1,8 @@
 //HALF BUTTON FUNCTIONALITY
 var button_half = document.getElementById("half-button");
-button_half.addEventListener("click", halfThis);
+button_half.addEventListener("click", halfNumber);
 
-function halfThis() {
+function halfNumber() {
   var inputNum = document.getElementById("half-input").value;
   var inputNum_half = inputNum / 2;
 
