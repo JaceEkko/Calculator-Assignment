@@ -1,5 +1,7 @@
 .FortuneText{
   color:blue;
   font-size: 7vmin;
+  text-shadow: 5px 5px green;
+  transform: rotateZ(5deg);
   transition: 2s;
 }
