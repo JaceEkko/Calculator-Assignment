@@ -16,9 +16,9 @@ function halfThis() {
 
 //FORTUNE BUTTON FUNCTIONALITY
 var button_fortune = document.getElementById("fortune-button");
-button_fortune.addEventListener("click", fortuneTeller);
+button_fortune.addEventListener("click", fortune);
 
-function fortuneTeller() {
+function fortune() {
   var fortunes = [" Feel Enlightened", " Good Fortune is Coming", " You Miss ALL the Shots You Don't Take",
                   " No One Can Be You, Except You", " Your Turn is Coming Up"];
   var pick_fortune = fortunes[Math.floor(Math.random() * fortunes.length)] //the randopm fortune
