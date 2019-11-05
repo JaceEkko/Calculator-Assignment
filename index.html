@@ -4,6 +4,7 @@
 <head>
   <meta charset=utf-8 />
   <title>Calculator</title>
+  <link rel="stylesheet" type="text/css" href="style-calculator.css">
 </head>
 
 <body>
@@ -20,7 +21,14 @@
   </label>
   <button id="fortune-button">Get Fortune</button>
   <br><br>
-  <div id="fortune-output"></div>
+  <div style="display:flex">
+    <p style="margin: 0 0 0 0">Your Fortune: </p>
+    <div id="fortune-output">
+      <h3 id="fortune-result"></h3>
+    </div>
+  </div>
+  <br>
+  <button id="fortune-style-button">Change Fortune Style</button>
 
   <script type="text/javascript" src="calculator-javascript.js"></script>
 
