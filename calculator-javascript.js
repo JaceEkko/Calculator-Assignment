@@ -30,7 +30,7 @@ function fortune() {
     console.log(pick_fortune);
   }
   else{
-    console.log("Please Enter Your Name");
+    alert("Please Enter Your Name");
   }
 };
 
